@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Bootstrat</title>
+    <link rel="stylesheet" href="Redressed/Redressed-Regular.ttf">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="Bpractices.css">
+</head>
+
+<body>
+    <nav class="cc_navbar navbar navbar-expand-lg navbar-dark position-fixed w-100">
+        <a class="navbar-brand fw-bold text-uppercase mx-4 py-3 " href="#">Restaurant le Prestige</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mx-4 py-3">
+                <li class="nav-item active pe-4 ">
+                    <a class="nav-link" href="#"> Acceuil </a>
+                </li>
+                <li class="nav-item pe-4">
+                    <a class="nav-link" href="#">Decouvrir</a>
+                </li>
+                <li class="nav-item pe-4   ">
+                    <a class="nav-link " href="#">Les classiques</a>
+                </li>
+                <li class="nav-item pe-4 ">
+                    <a class="btn btn-order rounded-0" href="#">Passer la commande</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <section class="banner d-flex justify-content-center align-items-center pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                    <h1 class="text-white mt-5 text-capitalize py-3 banner-desc">Restaurant le Prestige;
+                        <br>
+                        la douceur des septs colines de Yaoundé </h1>
+                    <p>
+                        <button class="btn btn-order btn-lg me-5 rounded-0 Qwitcher Grypen">Commandez maintenant
+                        </button>
+                        <button class="btn btn-outline-info btn-lg rounded-0 Qwitcher Grypen"> Reserver </button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Pt-5 répresente le padding top à 5  -->
+    <section class="available QwitcherGrypen py-5 ">
+        <div class="container">
+            <div class="row">
+                <div class="card mb-3 border-0 rounded-0">
+                    <div class="row ">
+                        <div class="col-md-6">
+                            <img src="./Asset/pistache.png" class="img-fluid" width="550" height="367" alt="Dorade Roti ">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">Met de pistache </h5>
+                                <p class="card-text "> Déguster nos mets locaux délicieux issus de notre ferme 100% Bio
+                                    <br>
+                                    En famille ou entre amis nous sommes heureux de vous acceuillir. Venez vous régalez.
+                                </p>
+                                <p class="card-text"><a href="#" class="text-muted btn"> Mis à jour le 30/08/2022</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card my-5 border-0 rounded-0">
+                    <div class="row ">
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title">Tapas sangria  </h5>
+                                <p class="card-text "> Voyageons ensemble vers l'espagne et venez déguster un délicieux plat de sangria préparé avec amour <br> 
+                                    par le chef Rodriguez qui a rejoint notre équipe la semaine dernière 
+                                    <br>
+                                    En famille ou entre amis nous sommes heureux de vous acceuillir. Venez vous régalez.
+                                </p>
+                                <p class="card-text"><a href="#" class="text-muted btn"> Mis à jour le 30/08/2022</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="./Asset/Poisson roti.jpg" class="d-block w-100" width="550" height="367" alt="Poisson Roti">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="./Asset/salade d'avocat.png" class="d-block w-100" width="550" height="367" alt="Sangria Tapas">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="./Asset/plantain brochettes.jpg" class="d-block w-100" width="550" height="367" alt="Beau service ">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card mb-3 border-0 rounded-0">
+                    <div class="row ">
+                        <div class="col-md-6">
+                            <img src="./Asset/BONGOTCHOBI.png" class="img-fluid" height="200" width="550" alt="Dorade Roti ">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title"> Bongo Tchobi </h5>
+                                <p class="card-text "> Plat composé d'épices Camerounaises , outre la particuliarité de ce plat c'est qu'il est cuisiné 
+                                    <br>
+                                    avec un ingrédient très spécial: du charbon
+                                </p>
+                                <p class="card-text"><a href="#" class="text-muted btn"> Mis à jour le 30/08/2022</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section class="CC-menu py-5 Qwitcher Grypen ">
+        <div class="container">
+            <div class="row">
+                <h3 class="text-center text-light fs-1  font-weight-bold "> Nos Variétés</h3>
+                <div class="card bg-transparent text-center">
+                    <div class="card-header Qwitcher Grypen fs-4">
+                      <ul class="nav nav-tabs card-header-tabs justify-content-center   ">
+                        <li class="nav-item">
+                          <a class="nav-link active " aria-current="true" id="nav-link" href="#">Met locaux</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-light fs-4 text-light" href="#">grillades</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-light fs-4 text-light"  href="#">Vins et Champagnes</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-light fs-4 text-light"  href="#" tabindex="-1" aria-disabled="true">Frites Accompagnés</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title fs-1 text-light" >Merci de regarder nos différentes variétés</h5>
+                      <p class="card-text fs-2 text-light">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div> 
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col ">
+                  <div class="card">
+                    <img src="./Asset/pistache.png" class="card-img-top" width="550" height="367" alt="Poisson Roti">
+                    <div class="card-body">
+                      <h5 class="card-title">Met locaux </h5>
+                      <p class="card-text">Nos poissons sont péchés à la commande dans nos nombreux étans entretenu par nos pisciculteurs </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col ">
+                  <div class="card">
+                    <img src="./Asset/Viande roti.jpg" class="card-img-top" width="550" height="367" alt="Viande roti">
+                    <div class="card-body">
+                      <h5 class="card-title">grillades</h5>
+                      <p class="card-text"> Nos différentes grillades vous sont grandement ouvertes beoufs , chameaux , poulet , ect...</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col ">
+                  <div class="card">
+                    <img src="./Asset/frites-fotolia_159013743_m.jpg" class="card-img-top" width="550" height="367"  alt="Vins">
+                    <div class="card-body">
+                      <h5 class="card-title"> Frites accompagnés </h5>
+                      <p class="card-text"> Venez découvrir notre selection de frites de pommes à l'ail au gingembre au poivre blanc de Pendja ect...</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col ">
+                    <div class="card">
+                      <img src="./Asset/tableManger.jpg" class="card-img-top" width="550" height="367"  alt="Vins">
+                      <div class="card-body">
+                        <h5 class="card-title">Champagnes et vins </h5>
+                        <p class="card-text"> Venez découvrir notre selection de boissons de 10 ans d'age minimum</p>
+                      </div>
+                    </div>
+                  </div>
+        </div>
+    </section>
+    <section class="cc-carousel bg-dark text-light text-center py-7">
+      <div class="container">
+        <div class="row">
+          <h1 class="text-Capitalize"> Les délices Interdits </h1>
+          <div class="col pb-4">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus velit fugiat quia dolores rerum facere ab nobis soluta quidem voluptatem maxime, saepe odio eius pariatur expedita ullam reprehenderit qui tenetur.
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./js/bootstrap.js"></script>
+</body>
+
+</html>

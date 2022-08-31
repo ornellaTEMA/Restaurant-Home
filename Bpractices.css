@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
+
+.cc_navbar{
+   background-color: rgba(0, 0, 0, .55); 
+   font-family: serif;
+   box-shadow: 1px 1px 3px rgba(255, 255, 255, .54);
+   font-size: larger;
+   z-index: 99;
+}
+.btn-order{
+    color : var(--bs-teal);
+    border-color:var(--bs-teal) ;
+    transition: 0.5s;
+    font-size: larger;
+}
+.btn-order:hover,
+.btn-order:active
+ {
+    color: white;
+    background-color: var(--bs-teal);
+}
+
+.cc_navbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+
+}
+.cc_navbar .nav-link:hover{
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
+} 
+.banner{
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url('./Asset/Pura+Vida+Miracle+Mile-04.jpg') center center fixed 
+    no-repeat ;
+    height: 800px;
+    background-size: cover;
+}
+.banner .banner-desc{
+    font-size: 48px;
+    font-weight: 700;
+    font-family:"Qwitcher Grypen" ;
+    font-family: xx-large;
+}
+.card-text{
+    font-size: x-large;
+    font-family:"Qwitcher Grypen";
+    font-weight: 700;
+}
+.card-title{
+    font-size: xx-large;
+    font-family: "Qwitcher Grypen" ;
+    font-weight: 1000;
+}
+
+.CC-menu{
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('./Asset/spacieux\ interieur.jpg') center center fixed no-repeat;
+    background-size: cover;
+    height: 1200px;
+}
+h3{
+    font-family:"Qwitcher Grypen";
+    font-size: xx-large;
+    font-weight: 1000 ;
+}
